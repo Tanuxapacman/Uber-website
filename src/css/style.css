@@ -1,0 +1,222 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+nav {
+    height: 50px;
+    background-color: #212121;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+
+}
+
+.subheader {
+    margin-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0, .6);
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.subheader .subheader_call {
+    text-align: right;
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 178px;
+    height: 52px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+.promo {
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+    background: url('../img/uber_bg.png');
+}
+
+.promo .promo_header {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0;
+    width: 259px;
+    height: 63px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+
+
+.benefits .benefits_btn, .opportunities .opportunities_btn {
+    display: block;
+    margin:20px auto 0;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    border: none;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.benefits .benefits_header, .opportunities .opportunities_header {
+    margin-top: 33px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+}
+
+.benefits .benefits_wrapper {
+    margin-top: 16px;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.benefits .benefits_item {
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;
+}
+
+.benefits .benefits_wrapper .benefits_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border: none;
+    border-radius: 100%;
+    
+}
+
+.benefits .benefits_wrapper .benefits_item .item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 371px;
+    min-height: 150px;
+}
+
+.benefits .benefits_wrapper .benefits_item .item_text .header_item {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.benefits .benefits_wrapper .benefits_item .item_text .dscr_item {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #202020;
+}
+
+.opportunities .opportunities_subheader {
+    font-size: 17px;
+    font-weight: 400;
+    color: #222222;
+    text-align: center;
+}
